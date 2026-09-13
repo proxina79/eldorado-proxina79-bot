@@ -1,0 +1,21 @@
+{
+  "name": "eldorado-proxina79-bot",
+  "version": "1.0.0",
+  "description": "Bot multi-plateforme (Telegram + WhatsApp) pour proxina79 — Eldorado",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=development node index.js",
+    "lint": "echo \"No linter configured\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "telegraf": "^4.12.3",
+    "twilio": "^4.12.0",
+    "node-fetch": "^3.4.4"
+  }
+}
